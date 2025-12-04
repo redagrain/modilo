@@ -8,7 +8,10 @@
       </div>
       <img class="spinner" src="../assets/spinner.svg" alt="">
       <h1>Coming Soon</h1>
-      <p>Get ready to discover your new favorite outfits!</p>
+      <p>Questions, ideas, feedback? we’re listening.</p>
+      <a class="whatsapp"   href="https://wa.me/+212630257293"
+  target="_blank"
+>Chat on WhatsApp</a>
     </div>
   </div>
 </template>
@@ -54,6 +57,21 @@
   text-transform: uppercase;
 }
 
+.content p{
+font-style: italic;
+}
+.whatsapp{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  background-color: #25D366;
+  padding: 15px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  outline: none;
+}
 .spinner{
   width: 50px;
   animation: spin 2s infinite ;
